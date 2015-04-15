@@ -1,0 +1,38 @@
+{
+  "name": "encrypter",
+  "version": "0.0.1-alpha",
+  "description": "A Node.js encryption module",
+  "main": "Encrypter.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node Encrypter"
+  },
+  "author": "Harish Anchu",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quorrajs/Encrypter"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "crypt",
+    "encryption-service",
+    "quorra",
+    "positron"
+  ],
+  "bugs": {
+    "url": "https://github.com/quorrajs/Encrypter/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/quorrajs/Encrypter"
+}
