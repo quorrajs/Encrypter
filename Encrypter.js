@@ -47,7 +47,7 @@ Encrypter.prototype.decrypt = function(payload){
     var hmac = this.__digest(payload.ct);
 
     if (hmac != payload.mac) {
-        throw 'Encrypted session was tampered with!';
+        throw 'Encrypted data was tampered!';
     }
 
     return this.__decryptData(payload.ct);
