@@ -36,7 +36,21 @@ Message digest algorithm is dependent on the available algorithms supported by t
 
 ###encrypt and decrypt
 
+With default algorithms:
+
 ```javascript
+var encrypter = new (require('encrypter'))("myEncryptionSecret");
+
+var encrypted = encrypter.encrypt('Hello from quorra!');
+
+var decrypted = encrypter.decrypt(encrypted); // Hello from quorra!
+```
+
+With custom algorithms:
+
+```javascript
+var encrypter = new (require('encrypter'))("myEncryptionSecret", 'aes-256-ctc', 'sha256');
+
 var encrypted = encrypter.encrypt('Hello from quorra!');
 
 var decrypted = encrypter.decrypt(encrypted); // Hello from quorra!
