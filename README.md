@@ -5,6 +5,7 @@ NodeJS encryption made easy.
 
 [![npm version](https://badge.fury.io/js/encrypter.svg)](http://badge.fury.io/js/encrypter)
 [![Build Status](https://travis-ci.org/quorrajs/Encrypter.svg?branch=master)](https://travis-ci.org/quorrajs/Encrypter)
+[![Quality](https://codeclimate.com/github/quorrajs/Encrypter/badges/gpa.svg)](https://codeclimate.com/github/quorrajs/Encrypter)
 
 ##Installation
 
