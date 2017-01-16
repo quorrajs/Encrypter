@@ -1,6 +1,6 @@
 {
   "name": "encrypter",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "A Node.js encryption module",
   "main": "Encrypter.js",
   "scripts": {
